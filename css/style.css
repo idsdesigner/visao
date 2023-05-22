@@ -1,8 +1,12 @@
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /*HOME*/
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/depoimento.css";
+
 
 /*ULTILIDADES*/
 @import "./ultilidades/componentes.css";
@@ -12,3 +16,9 @@
 
 /*TIPOGRAFIA*/
 @import "./ultilidades/tipografia.css";
+
+/*OCULOS*/
+@import "./oculos/oculos-lista.css";
+
+/*SEGUROS*/
+@import "./seguros/seguros.css";
