@@ -19,6 +19,12 @@
 
 /*OCULOS*/
 @import "./oculos/oculos-lista.css";
+@import "./oculos/oculos.css";
 
 /*SEGUROS*/
 @import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+
+/*TERMOS*/
+@import "./termos/termos.css";
