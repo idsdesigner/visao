@@ -10,6 +10,7 @@
 
 /*ULTILIDADES*/
 @import "./ultilidades/componentes.css";
+@import "./ultilidades/formulario.css";
 
 /*CORES*/
 @import "./ultilidades/cores.css";
@@ -21,10 +22,17 @@
 @import "./oculos/oculos-lista.css";
 @import "./oculos/oculos.css";
 
+@import "./oculos-separados/oculos-sep.css";
+
 /*SEGUROS*/
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+@import "./oculos-separados/seguro.css";
+
+/*CONTATOS*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /*TERMOS*/
 @import "./termos/termos.css";
