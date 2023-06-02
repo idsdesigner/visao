@@ -19,7 +19,7 @@
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/logo_visao_branca.svg" alt="Visão">
+        <img class="visao-logo" src="./img/logo_visao_branca.svg" alt="Visão">
       </a>
  
     <nav aria-label="primaria">
@@ -35,24 +35,24 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-      <h1 class="font-1-xxl">Óculos feitos sob medida<span class="cor-p1">.</span></h1>
-      <p class="font-2-l cor-5">Óculos de tecnológico e qualidade,  feitas sob medida para o cliente. Rastreadores embutidos.</p>
-      <a class="botao" href="./oculos.html">Escolha o seu</a>
+      <h1 class="font-1-xxl fadeInLeft" data-anime="200">Óculos feitos sob medida<span class="cor-p1">.</span></h1>
+      <p class="font-2-l cor-5 fadeInLeft" data-anime="400">Óculos de tecnológico e qualidade,  feitas sob medida para o cliente. Rastreadores embutidos.</p>
+      <a class="botao fadeInLeft" data-anime="600" href="./oculos.html">Escolha o seu</a>
       </div>
-      <div>
+      <div class="fadeInRight" data-anime="400">
       <img src="./img/fotos/img-intro.jpg" alt="Mulher de Óculos.">
       </div>
     </div>
   </main>
 
   <article class="oculos-lista">
-    <h2 class="container font-1-xxl">escolha o seu <span class="cor-p1">.</span></h2>
+    <h2 class="container font-1-xxl cor-11">escolha o seu <span class="cor-p1">.</span></h2>
 
   <ul>
     <li>
       <a href="./oculos/visao-business.html">
       <img src="./img/oculos/visao-business-home.jpg" alt="Oculos Visão Business">
-      <h3 class="font-1-xl">Visão Business</h3>
+      <h3 class="font-1-xl cor-11">Visão Business</h3>
       <span class="font-2-m cor-8">R$ 1499</span>
       </a>
     </li>
@@ -60,7 +60,7 @@
     <li>
       <a href="./oculos/magic.html">
       <img src="./img/oculos/magic-sun-home.jpg" alt="Oculos Magic Sun">
-      <h3 class="font-1-xl">Magic Sun</h3>
+      <h3 class="font-1-xl cor-11">Magic Sun</h3>
       <span class="font-2-m cor-8">R$ 2999</span>
       </a>
     </li>
@@ -68,7 +68,7 @@
     <li>
       <a href="./oculos/ultra.html">
       <img src="./img/oculos/ultra-classico-home.jpg" alt="Oculos Visão Business">
-      <h3 class="font-1-xl">Ultra Clássico</h3>
+      <h3 class="font-1-xl cor-11">Ultra Clássico</h3>
       <span class="font-2-m cor-8">R$ 2499</span>
       </a>
     </li>
@@ -184,5 +184,7 @@
       <p class="footer-cop font-2-m cor-6">Visão © Trabalho desenvolvido no curso da Origamid.</p>
       </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

@@ -39,3 +39,6 @@
 
 /*TERMOS*/
 @import "./termos/termos.css";
+
+/*ANIMAÇÃO*/
+@import "./ultilidades/animacao.css";
